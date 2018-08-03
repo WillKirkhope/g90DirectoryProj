@@ -6,7 +6,7 @@ const app = express()
 
 const port = parseInt(process.env.port || 3000);
 
-const students = require("../Routes/index");
+const students = require("./Routes/index");
 
 app.use(bodyParser.json())
 app.use(cors())
