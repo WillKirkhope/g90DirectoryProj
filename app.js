@@ -4,7 +4,7 @@ const cors = require ('cors')
 const queries = require('./queries')
 const app = express()
 
-const port = parseInt(process.env.port) || 3000;
+const port = parseInt(process.env.port || 3000);
 
 const students = require("../routes/index");
 
