@@ -2,8 +2,8 @@
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('directory', function(table){
     table.increments()
-    table.text('firstname')
-    table.text('lastname')
+    table.text('firstName')
+    table.text('lastName')
     table.text('photo')
     table.text('hometownLat')
     table.text('hometownLong')
